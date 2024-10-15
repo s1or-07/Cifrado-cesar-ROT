@@ -40,8 +40,8 @@ rotate_text() {
 echo "Ingrese el texto para aplicar todas las rotaciones (1 a 30):"
 read input_text
 
-# Mostrar las 30 rotaciones
-for (( i=1; i<=30; i++ )); do
+# Mostrar las 26 rotaciones
+for (( i=1; i<=26; i++ )); do
   rotated_text=$(rotate_text "$input_text" "$i")
   echo "Rotación $i: $rotated_text"
 done
